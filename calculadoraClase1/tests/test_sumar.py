@@ -37,5 +37,6 @@ class TestSumar(unittest.TestCase):
     def test_sumar_opuestos_grandes(self):
         self.assertEqual(self.calc.sumar(-100, 100), 0)
 
+
 if __name__ == '__main__':
     unittest.main()

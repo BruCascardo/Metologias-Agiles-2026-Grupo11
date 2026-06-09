@@ -1,4 +1,4 @@
 class Calculadora:
-    def sumar (self, a, b):
+    def sumar(self, a, b):
         return a+b
-    
+
