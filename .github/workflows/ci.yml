@@ -25,9 +25,11 @@ jobs:
 
       - name: Ejecutar tests con coverage
         run: |
-          coverage run -m unittest discover -s calculadoraClase1/tests -p "test_*.py"
+          cd calculadoraClase1
+          coverage run -m unittest discover -s tests -p "test_*.py"
           coverage report -m
           coverage xml
+
 
 
       - name: Análisis estático con Flake8
